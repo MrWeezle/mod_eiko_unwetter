@@ -132,7 +132,7 @@ endif;
 		endif;
 	endif;	
 					$report .= '<td class="eiko_unwetter_td">'; 
-					$report .= '<span class="dwd_count">'.$warn_state.' Warnung(en) aktiv</span>  <a class="dwd_copyright" href="http://www.dwd.de" target="_blank">Quelle: Deutscher Wetterdienst</a> <span class="dwd_copyright">( Letzte Aktualisierung '.$time.')</span>';
+					$report .= '<span class="dwd_count">'.$warn_state.' Warnung(en) aktiv</span>  <a class="dwd_copyright" href="http://www.dwd.de" target="_blank">Quelle: Deutsche Wetterdienst</a> <span class="dwd_copyright">( Letzte Aktualisierung '.$time.')</span>';
 					$report .= '</td>';
 					$report .= '</tr>';
 $report .= '</table>';
