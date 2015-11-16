@@ -31,6 +31,8 @@ $show_description = $params->get('show_description','1');
 $show_event = $params->get('show_event','0');
 $show_state = $params->get('show_state','0');
 $hide_on_action = $params->get('hide_on_action','0');
+$show_warn_image = $params->get('show_warn_image','1');
+
 
 $moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'));
 $class_sfx = htmlspecialchars($params->get('class_sfx'));
@@ -379,7 +381,7 @@ case '109762000' : $kreis_name='Stadt Kaufbeuren';$kennung='KFX';break;
 case '109763000' : $kreis_name='Stadt Kempten (Allgäu)';$kennung='KEX';break;
 case '109764000' : $kreis_name='Stadt Memmingen';$kennung='MMX';break;
 case '109771000' : $kreis_name='Kreis Aichach-Friedberg';$kennung='AIC';break;
-case '909772999' : $kreis_name='Kreis und Stadt Augsburg';$kennung='AXX';break;
+case '109772000' : $kreis_name='Kreis und Stadt Augsburg';$kennung='AXX';break;
 case '109773000' : $kreis_name='Kreis Dillingen a.d. Donau';$kennung='DLG';break;
 case '109774000' : $kreis_name='Kreis Günzburg';$kennung='GZX';break;
 case '109775000' : $kreis_name='Kreis Neu-Ulm';$kennung='NUX';break;
